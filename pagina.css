@@ -1,0 +1,65 @@
+body{
+	background-color:#dddddd;
+}
+#interface{
+	background-color:white;
+	width:1000px;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.6);
+	margin: -20px auto 0px auto;
+}
+#cabecalho{
+	background-image:url("fotos css/cidade.png");
+	height:500px;
+	width:100%;
+	color:white;
+}
+#menu{
+	display:block;
+}
+#menu ul{
+	position:absolute;
+	top:0px;
+	right:480px;
+}
+#menu li{
+	display:inline-block;
+	padding:10px;
+	margin:10px;
+	border: 1px solid #909090;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+}
+#menu a{
+	text-decoration: none;
+	color:white;
+	text-transform: uppercase;
+}
+#menu li:hover{
+	transition:1s;
+	background-color:rgba(221, 221, 221, 0.6);
+}
+#menu li a:hover{
+	color:#404040;
+	transition:1s;
+}
+hgroup{
+	position:relative;
+	text-align:center;
+	padding-top: 200px;
+	text-shadow: 3px 3px 5px black;
+}
+hgroup h1{
+	font-size: 45px;
+	margin-bottom: 0px;
+}
+hgroup h2{
+	margin-top:0px;
+}
+p{
+	text-align:center;
+}
+#esquerda{
+
+}
+#direita{
+
+}
