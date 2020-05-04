@@ -81,10 +81,14 @@ p{
 #pe{
 	clear:both;
 	border-top:3px solid #808080;
+	padding-bottom:5px;
 }
 #pe p{
 	text-align:center;
+	margin-top:3px;
+	margin-bottom:0px;
 }
+
 .linha{
 	clear:both;
 	border-top: 3px solid #808080;
@@ -99,10 +103,26 @@ p{
 	border: 2px solid #808080;
 	border-spacing: 0px;
 	color:black;
-	background-color:#808080;
 }
 #tabela td{
-	border: 1px solid white;
+	border: 1px solid #808080;
 	padding:5px;
-	text-align:right;
+	vertical-align: middle;
+	text-align:center;
+}
+#tabela .esq{
+	background-color:#808080;
+	color:white;
+	text-align: right;
+}
+#tabela .dir{
+	text-align:left;
+}
+#tt{
+	color:#888888;
+	font-size:13pt;
+	font-weight: bold;
+}
+a:hover{
+	text-decoration:underline;
 }
