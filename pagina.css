@@ -12,14 +12,15 @@ body{
 	height:500px;
 	width:100%;
 	color:white;
+
 }
 #menu{
 	display:block;
 }
 #menu ul{
-	position:absolute;
-	top:0px;
-	right:480px;
+	position:relative;
+	top:-300px;
+	left:150px;
 }
 #menu li{
 	display:inline-block;
@@ -55,11 +56,53 @@ hgroup h2{
 	margin-top:0px;
 }
 p{
-	text-align:center;
+	text-align:justify;
 }
 #esquerda{
-
+	display:block;
+	float:left;
+	width:450px;
+	margin:10px;
+	text-align:center;
+}
+#esquerda p{
+	text-indent: 50px;
 }
 #direita{
-
+	display:block;
+	float:right;
+	width:450px;
+	margin:10px;
+	text-align:center;
+}
+#direita p{
+	text-indent:50px;
+}
+#pe{
+	clear:both;
+	border-top:3px solid #808080;
+}
+#pe p{
+	text-align:center;
+}
+.linha{
+	clear:both;
+	border-top: 3px solid #808080;
+}
+#baixoesquerda{
+	margin-top:50px;
+	margin-left:50px;
+	height:245px;
+	width:450px;
+}
+#tabela{
+	border: 2px solid #808080;
+	border-spacing: 0px;
+	color:black;
+	background-color:#808080;
+}
+#tabela td{
+	border: 1px solid white;
+	padding:5px;
+	text-align:right;
 }
