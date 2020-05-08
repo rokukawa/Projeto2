@@ -20,7 +20,7 @@ body{
 #menu ul{
 	position:relative;
 	top:-300px;
-	left:150px;
+	left:260px;
 }
 #menu li{
 	display:inline-block;
@@ -43,7 +43,6 @@ body{
 	transition:1s;
 }
 hgroup{
-	position:relative;
 	text-align:center;
 	padding-top: 200px;
 	text-shadow: 3px 3px 5px black;
@@ -125,4 +124,11 @@ p{
 }
 a:hover{
 	text-decoration:underline;
+}
+#luz{
+	position:relative;
+	height:70px;
+	width:50px;
+	left:50px;
+	top:-367px;
 }

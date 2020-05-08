@@ -1,10 +1,12 @@
 <!DOCTYPE HTML>
-<html lang="pt-br"
+<html lang="pt-br">
 	<head>
 		<meta charset="utf-8">
 		<title> Aprendizado </title>
 		<link rel="stylesheet" type="text/css" href="pagina.css">
 	</head>
+
+	<script src="funcao.js"></script>
 
 	<body>
 		<div id="interface">
@@ -16,12 +18,12 @@
 
 				<div id="menu">
 					<ul>
-						<li><a href="#">Home page</a></li>
-						<li><a href="#">Left sidebar</a></li>
-						<li><a href="#">Right siderbar</a></li>
-						<li><a href="#">No sidebar</a></li>
+						<li onmouseover="mudaFoto('home')" onmouseout="mudaFoto('lampada-apagada')"><a href="#">Home page</a></li>
+						<li onmouseover="mudaFoto('Especificacoes')" onmouseout="mudaFoto('lampada-apagada')"><a href="#">Especificações</a></li>
+						<li onmouseover="mudaFoto('camera')" onmouseout="mudaFoto('lampada-apagada')"><a href="#">Fotos</a></li>
 					</ul>
 				</div>
+				<img id="luz" src="fotos css/lampada-apagada.png" onmousemove="mudaFoto('lampada-acesa')" onmouseout="mudaFoto('lampada-apagada')" onclick="mudaFoto('lampada-quebrada')">
 			</header>
 
 			<div class="linha"></div>
